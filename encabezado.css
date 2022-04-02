@@ -1,0 +1,8 @@
+#btnControl {
+  display: none;
+}
+
+#btnControl:checked + label > img {
+  width: 70px;
+  height: 74px;
+}
