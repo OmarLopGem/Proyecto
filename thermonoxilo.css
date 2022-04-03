@@ -1,0 +1,60 @@
+.container_thermonoxilo{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 20px;
+    line-height: 30px;
+    color: rgb(88, 88, 88);
+    font-size: 18px;
+}
+
+.title_thermonoxilo{
+    font-size: 25px;
+}
+
+.info_imagenes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info_thermonoxilo{
+    grid-gap: 20px;
+}
+
+.texto{
+    grid-column: span 2;
+    text-align: justify;
+}
+
+.img_thx{
+    width: 500px;
+    margin: auto;
+}
+
+.espacio{
+    margin-bottom: 20px;
+}
+
+ul{
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container_thermonoxilo{
+        width: 80%;
+        margin: 20px auto;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .title_thermonoxilo{
+        font-size: 20px;
+    }
+
+    .img_thx{
+        width: 200px;
+    }
+}

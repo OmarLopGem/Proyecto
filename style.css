@@ -277,6 +277,23 @@ footer {
     color: white;
 }
 
+a{
+    text-decoration: none;
+    color: #fab900;
+}
+
+#submenu{
+    background-color: #eb5b25;
+    color: #fab900;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+option{
+    margin-top: 50px;
+}
+
 @media screen and (max-width: 1310px) {
     .encabezado{
         grid-template-columns: repeat(3, 1fr) 260px;
