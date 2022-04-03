@@ -100,10 +100,10 @@ nav {
 
 .menu_mobile{
     width: 100vw;
-    height: calc(100vh - 80px);
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     align-items: center;
     text-align: center;
     align-content: center;
@@ -160,6 +160,7 @@ nav {
 }
 
 #titulo_atex {
+    margin-top: 40px;
     font-weight: normal;
 }
 
@@ -170,11 +171,11 @@ nav {
 
 .lista_datos {
     background-color: #eb5b25;
-    width: 1000px;
-    font-size: 30px;
+    width: 90%;
+    font-size: 20px;
     border-radius: 20px;
     text-align: justify;
-    padding: 50px;
+    padding: 60px;
     list-style-image: url(./image_datos.png);
 }
 
