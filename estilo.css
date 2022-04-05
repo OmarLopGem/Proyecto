@@ -63,18 +63,12 @@
 
 .menu-vertical li:hover{
     background-color: black;
-    border-radius: 10px;
-    width: 100%;
 }
 
 .menu-vertical li a{
     display: block;
     color: white;
     padding: 15px 15px 15px;
-}
-
-ul.menu-vertical{
-    padding: 0;
 }
 
 .tel-con-idi {
