@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=s, initial-scale=1.0">
-    <link rel="icon" type="image/jpg" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="./img/favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="thermonox.css">
     <title>Funcionamiento- ThermoNox®</title>
@@ -19,59 +19,76 @@
                 <p>correo@email.com</p>
             </div>
             <div class="info_encabezado" id="idioma">
-                <select class="idiom">
-                    <option>Español</op>
-                    <option>Ingles</op>
-                    <option>Detusch</op>
-                </select>
+                <div class="dropdown">
+                    <button class="dropbtn">Español</button>
+                    <div class="dropdown-content">
+                      <a href="./index.html">Español</a>
+                      <a href="./index_en.html">English</a>
+                    </div>
+                  </div>
             </div>
         </div>
         <a href="#openMenu" class="icon_menu">
-            <img src="./icon_menu.png" alt="">
+            <img src="./img/icon_menu.png" alt="">
         </a>
         <div class="imagen_encabezado centrado">
-            <a title="ThermoNox®" href="index.html"><img src="./thermonox-neu-logo-xl.png" alt="ThermoNox®" id="logo_inicial" class="responsive"></a>
+            <a title="ThermoNox®" href="index.html"><img src="./img/thermonox-neu-logo-xl.png" alt="ThermoNox®" id="logo_inicial" class="responsive"></a>
         </div>
         <div class="centrado">
             <div class="menu_pantalla">
-                <nav id="barra_nav">
-                    <ul class="menu-horizontal">
-                        <li><a href="index.html">INICIO</a></li>
-                        <li>
-                            <a href="thermonox.html">THERMONOX®</a>
-                            <ul class="menu-vertical">
-                                <li><a href="funcionamiento.html">FUNCIONAMIENTO</a></li>
-                                <li><a href="aplicaciones.html">APLICACIONES</a></li>
-                                <li><a href="seguridad.html">SEGURIDAD</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="thermonoxilo.html">THERMONOXILO</a></li>
-                        <li><a href="#">CONTACTO Y COLABORADORES</a></li>
-                    </ul>
-                </nav>
+                <ul class="nav">
+                    <li><a href="./index.html">INICIO</a></li>
+                    <li><a href="">THERMONOX®</a>
+                        <ul class="submenu">
+                            <li><a href="./funcionamiento.html">Funcionamiento</a></li>
+                            <li><a href="./aplicaciones.html">Aplicaciones</a></li>
+                            <li><a href="./seguridad.html">Seguridad</a></li>
+                            <li><a href="./thermonoxilo.html">ThermoNoxilo® - Tratamiento de silos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="./servicio_tecnico.html">CONTACTO Y COLABORADORES</a></li>
+                </ul>
             </div>
         </div>
     </div>
     <div id="openMenu" class="cont_menu">
         <div>
             <a href="#close" title="Close" class="close">
-                <img src="./icon_close.png" alt="">
+                <img src="./img/icon_close.png" alt="">
             </a>
             <div class="menu_mobile">
-                <a href="index.html" class="elemento_nav">INICIO</a>
-                <a href="thermonoxilo.html" class="elemento_nav">THERMONOX®<a>
+                <a href="./index.html">INICIO</a>
+                <a href="#the_menu">THERMONOX®</a>
+                <a href="./thermonoxilo.html">THERMONOXILO®</a>
                 <select>
                     <option>Español</option>
-                    <option>Ingles</option>
-                    <option>Detusch</option>
+                    <option>English</option>
                 </select>
-                <a href="#">CONTACTO Y COLABORACIONES</a>
+                <a href="./servicio_tecnico.html">CONTACTO Y COLABORACIONES</a>
             </div>
         </div> 
     </div>
-
+    <div id="the_menu" class="cont_menu">
+        <a href="#close" title="Close" class="close">
+            <img src="./img/icon_close.png" alt="">
+        </a>
+        <div>
+            <ul class="menu_mobile">
+                <li><a href="./funcionamiento.html">Funcionamiento</a></li>
+                <li><a href="./aplicaciones.html">Aplicaciones</a></li>
+                <li><a href="./seguridad.html">Seguridad</a></li>
+                <li><a href="./thermonoxilo.html">ThermoNoxilo® - Tratamiento de silos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <section class="container_thermonox">
-        <h1 class="title_thermonox" style="text-align:center" id="title36">Funcionamiento</h1>
+        <div class="titulos_secciones_c">
+            <div class="centrado">
+                <h1 id="titulos_secciones">Funcionamiento</h1>
+            </div>
+        </div>
         <div class="info_thermonox">
             <div class="texto">
                 <b>
@@ -83,7 +100,7 @@
             </div>
         </div>
         <div class="info_thermonox">
-            <div class="texto">
+            <div class="texto titulo_texto">
                 PARA UNA DESINFECCIÓN EFICAZ HAY QUE CUMPLIR SIEMPRE CON DOS REQUERIMIENTOS BÁSICOS.
             </div>
         </div>
@@ -96,7 +113,7 @@
             </div>
         </div>
         <div class="info_thermonox">
-            <div class="texto">
+            <div class="texto titulo_texto">
                 EL SISTEMA THERMONOX® SE DIFERENCIA CLARAMENTE DE OTROS SISTEMAS DE EXTERMINACIÓN POR CALOR RESOLVIENDO ESTE PROBLEMA DE UNA FORMA FÁCIL Y EFECTIVA:
             </div>
         </div>
@@ -117,11 +134,15 @@
             </div>
         </div>
         <div class="container info_thermonox">
-            <div class="texto" id="textores">
+            <div class="texto fondo_funcionamiento" id="textores">
                 SÓLO CON THERMONOX® SE GARANTIZA UNA ERRADICACIÓN TOTAL DE LAS PLAGAS Y AL MISMO TIEMPO LA MAYOR PROTECCIÓN ANTE POSIBLES DAÑOS PRODUCIDOS POR EL CALOR            
             </div>
         </div> <br>
-        <h1 class="title_thermonox" style="text-align:center" id="title36">Ventajas</h1>
+        <div class="titulos_secciones_c">
+            <div class="centrado">
+                <h1 id="titulos_secciones">Ventajas</h1>
+            </div>
+        </div>
         <div class="line"></div>
         <div class="info_thermonox" >
             <div class="lista" id="text16">
@@ -150,11 +171,10 @@
 
 
     </section>
-
     <footer class="footer_thermonox">
         <div class="info_footer">
             <div class="info">
-                <p><a class="texto_footer_link">Aviso legal</a> <span class="separador">|</span> <a class="texto_footer_link">Politica de privacidad</a></p>
+                <p><a href="aviso-legal.html" class="texto_footer_link">Aviso legal</a> <span class="separador">|</span> <a href="politica_de_privacidad.html" class="texto_footer_link">Politica de privacidad</a></p>
             </div>
             <div class="info">
                 <p><a class="texto_footer_normal">ThermoNox®</a> <span class="separador">|</span> <a class="texto_footer_normal">Thermonox.de </a><span class="separador">|</span><a class="texto_footer_normal"> info@thermonox.de</a></p>
