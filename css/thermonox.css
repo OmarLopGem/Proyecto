@@ -1,0 +1,94 @@
+body{
+    background-color: white;
+}
+
+.container_thermonox{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 20px;
+    line-height: 30px;
+    color: rgb(88, 88, 88);
+    font-size: 18px;
+}
+
+.title_thermonox{
+    font-size: 25px;
+}
+
+#title36{
+    font-size: 36px;
+    
+}
+
+#text16{
+    font-size: 16px;
+}
+
+ul, ol {
+    padding-left: 30px;
+}
+
+.info_thermonox{
+    grid-gap: 20px;
+}
+
+.lista{
+    column-count: 2;
+    padding-top: 1px;
+    text-align: justify;
+}
+
+.texto{
+    grid-column: span 2;
+    text-align: justify;
+}
+
+#column{
+    column-count: 3;
+}
+
+#textores{
+    font-size: 36px;
+    text-align: center;
+    line-height : 50px;
+}
+
+.espacio{
+    margin-bottom: 20px;
+}
+
+.line {
+    background-color: lightgrey;
+    padding: 1px;
+    margin: 8px;
+}
+
+.container {
+    background-color: rgb(250, 185, 00);
+    padding: 15px;
+    
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .container_thermonox{
+        width: 80%;
+        margin: 20px auto;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .title_thermonox{
+        font-size: 20px;
+    }
+
+    .img_thx{
+        width: 200px;
+    }
+}
